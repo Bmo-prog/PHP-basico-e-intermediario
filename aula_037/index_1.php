@@ -8,7 +8,7 @@ Retorna um determinado valor de acordo com a análise efetuada
 */
 
 
-$estado_encomenda = 'em processamento';
+$estado_encomenda = 'enviada';
 
 // -------------------------------------------------
 switch ($estado_encomenda) {

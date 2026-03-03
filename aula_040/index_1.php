@@ -30,7 +30,6 @@ for(;;){
 
 Trata-se de um ciclo infinito. Para que ele termine, será necessário
 criar um cenário no interior do ciclo para que ele seja interrompido.
-Veremos como usar as instruções Continue e Break num outro vídeo.
 
 */
 
@@ -42,7 +41,7 @@ for ($i = 0; $i < 10; print $i, $i++) {
 
 echo '<hr>';
 
-// Também podemos usar o ciclo For para fazer uma iteração
+// Também pode usar o ciclo For para fazer uma iteração
 // pelos dados de um array, da seguinte forma
 $nomes = ['joao', 'ana', 'carlos'];
 for ($i = 0; $i < count($nomes); $i++) {
@@ -74,3 +73,6 @@ for ($i = 0, $total_valores = count($valores); $i < $total_valores; $i++) {
 
 // $total_valores só vai ser executado no primeiro passo do ciclo.
 // A expressão de avaliação da condição vai apenas analisar o valor da variável.
+
+for ($numero = 950; $numero <= 1000; print "<br>$numero", $numero++) {  
+}

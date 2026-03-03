@@ -13,7 +13,7 @@
         'coimbra' => 'coimbra@gmail.com'
     ];
 
-    $cidade = 'lisboa';
+    $cidade = 'coimbra';
 ?>
 
 <!DOCTYPE html>
@@ -26,11 +26,14 @@
 </head>
 <body>
 
-        <h3><!-- nome da cidade (se existe) --></h3>
-        <p><!-- email da loja da cidade (se existe) --></p>
-
-        <!-- quando não existe cidade na coleção das $lojas -->
-        <p>Não existe nenhuma loja na cidade indicada.</p>
+    <?php
+    if(isset($lojas[$cidade])) {
+        echo "<h3>" . $cidade . "</h3>";
+        echo "<p>" . $lojas[$cidade] ."</p>";
+    } else {
+        echo '<p> Não existe nenhuma lojas na cidade indicada.</p>';
+    }
+    ?>
 
 </body>
 </html>
