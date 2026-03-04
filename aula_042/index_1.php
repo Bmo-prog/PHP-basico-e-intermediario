@@ -13,15 +13,15 @@ suas iterações, ou queremos que seja simplesmente interrompido.
 // ---------------------------------------------
 // BREAK - permite interromper a execução de um ciclo antes do previsto
 
-$paragem = 5;
+$numero = 5;
 for ($i = 0; $i <= 10; $i++) {
     echo "$i<br>";
-    if($i == $paragem) {
+    if($i == $numero) {
         break;
     }
 
     // ou
-    // if($i == $paragem) break;
+    // if($i == $numero) break;
 }
 
 echo '<hr>';

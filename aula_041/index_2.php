@@ -3,7 +3,7 @@
 // CICLO FOREACH
 
 /* 
-No cenário de PHP embebido em HTML
+No cenário de PHP embutido em HTML
 */
 
 $nomes = ['joao', 'ana', 'carlos', 'francisco', 'maria'];
