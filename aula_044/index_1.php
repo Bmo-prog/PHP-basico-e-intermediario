@@ -3,9 +3,6 @@
 // FUNÇÕES
 
 /* 
-Neste módulo vamos fazer uma introdução aos 
-principais conceitos relacionados com funções em PHP.
-(Existem detalhes mais avançados que irems ver noutros módulos)
 
 As funções são blocos de código reutilizáveis que apenas são executados
 quando são "chamados" pelo nosso código.

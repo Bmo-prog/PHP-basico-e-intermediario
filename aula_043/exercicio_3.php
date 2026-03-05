@@ -6,6 +6,13 @@
 
     $nomes = ['joao', 'ana', 'carlos', 'marco', 'maria', 'silvia', 'helena', 'ricardo'];
 
+    foreach($nomes as $indice => $nome){
+
+        if($indice != 4) {
+            echo $nome . "<br>";
+        }
+    }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

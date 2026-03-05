@@ -1,27 +1,50 @@
-<?php
-
-    /* 
-    Constrói uma apresentação em HTML que mostra a tabuáda dos 5.
-    Exemplo:
-    5 x 1 = 5
-    5 x 2 = 10
-    5 x 3 = 15
-    ...
-    5 x 10 = 50
-    */
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabuada do 5</title>
+    
+    <style>
+        
+        body {
+            margin: 0;
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #f2f2f2;
+        }
+        
+        .container {
+            background-color: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2)
+        }
+        
+        p {
+            font-size: 18px;
+        }
+        
+        </style>
 </head>
 <body>
-    
-    
 
+    <div class="container">
+        <h1>Tabuada do 5</h1>
+
+        <?php 
+            $numeros = range(1,10);
+
+            foreach($numeros as $numero) {
+                echo "<p> 5 x $numero =" . (5 * $numero) . "</p>";
+            }
+        ?>
+    </div>
+    
 </body>
 </html>
