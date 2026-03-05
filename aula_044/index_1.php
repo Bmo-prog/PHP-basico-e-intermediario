@@ -7,7 +7,6 @@
 As funções são blocos de código reutilizáveis que apenas são executados
 quando são "chamados" pelo nosso código.
 O PHP contém um vasto conjunto de funções já disponíveis.
-Nós podemos criar as nossas próprias funções.
 
 function nome_da_funcao(parâmetros){
     # código

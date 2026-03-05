@@ -28,9 +28,8 @@ seguido de letras, algarismos e underscores.
 
 Os nomes das funções são case insensitive
 
-apresentar() é igual a APREENTAR()
+apresentar() é igual a APRESENTAR()
 
 Não podem existir duas funções com o mesmo nome dentro do mesmo namespace
 
-(Falaremos de namespaces noutro módulo)
 */

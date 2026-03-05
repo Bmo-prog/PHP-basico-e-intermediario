@@ -12,8 +12,10 @@ $nome = 'joao';
 
 function dados(){
     $nome = 'joaquim';
+    return $nome;
 }
 
-dados();
+$resultado = dados();
+echo $resultado;
 
 echo $nome;

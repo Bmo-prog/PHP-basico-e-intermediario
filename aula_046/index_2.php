@@ -6,11 +6,11 @@
 No entanto, a variável não estará acesível dentro de uma função.
 */
 
-$nome = 'joao';
+// $nome = 'joao';
 
-function executar(){
-    echo $nome;
-}
+// function executar(){
+//     echo $nome;
+// }
 
 executar();
 
@@ -23,6 +23,10 @@ a função termina a sua execução.
 
 function adicionar(){
     $a = 100;
+    return $a;
 }
 
-echo $a;
+$resultado = adicionar();
+echo $resultado;
+
+?>

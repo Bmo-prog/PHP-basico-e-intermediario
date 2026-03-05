@@ -10,7 +10,6 @@ Parâmetros são variáveis indicadas dentro dos parêntisis da função
 e que vão estar disponiveis para serem usadas dentro da função.
 
 Argumentos são os valores que passamos para o interior dessa função.
-Vejamos um exemplo simples.
 */
 
 function adicionar($a, $b){
